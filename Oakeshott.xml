@@ -17,11 +17,11 @@
         <dc:creator xml:lang="en">Marco Galatola</dc:creator>
         <dc:creator xml:lang="en">Nazareno Maria Borello</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-11T09:00:00</dc:date>
-        <dc:description xml:lang="en">An onthology for classifying european medieval double edged swords based on the Oakeshott typology(1960)</dc:description>
-        <dc:title xml:lang="en">Oakeshott Typology Onthology</dc:title>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oto</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.semanticweb.org/oakeshott</vann:preferredNamespaceUri>
-        <rdfs:label xml:lang="en">The Oakeshott Typology Onthology</rdfs:label>
+        <dc:description xml:lang="en">An ontology for classifying european medieval double edged swords based on the Oakeshott typology(1960)</dc:description>
+        <dc:title xml:lang="en">Oakeshott Typology Ontology</dc:title>
+        <vann:preferredNamespacePrefix>oto</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://www.semanticweb.org/oakeshott</vann:preferredNamespaceUri>
+        <rdfs:label xml:lang="en">The Oakeshott Typology Ontology</rdfs:label>
     </owl:Ontology>
     
 
@@ -4561,8 +4561,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt1"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type1"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#Norway"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-ulbert.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulfberht Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-ulbert.jpg</image>
+        <name>Ulfberht Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4575,8 +4575,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt10"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type10"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#Italy"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-deltin-xix.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Del Tin Venetian Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-deltin-xix.jpg</image>
+        <name>Del Tin Venetian Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4589,8 +4589,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt2"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type2"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#People%27s%20Republic%20of%20China"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-cas-xx.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hanwei Mercenary Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-cas-xx.jpg</image>
+        <name>Hanwei Mercenary Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4603,8 +4603,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt3"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type3"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#Italy"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1337.photobucket.com%2Falbums%2Fo673%2FAlaeSwords%2FAlaeSwords102%2Fcinquedea-short-sword-6.jpg&amp;f=1&amp;nofb=1</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinquedea Sword</name>
+        <image>https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1337.photobucket.com%2Falbums%2Fo673%2FAlaeSwords%2FAlaeSwords102%2Fcinquedea-short-sword-6.jpg&amp;f=1&amp;nofb=1</image>
+        <name>Cinquedea Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4617,8 +4617,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt4"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type4"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#United%20States%20of%20America"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-legacy-xva.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Prince Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-legacy-xva.jpg</image>
+        <name>Black Prince Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4631,8 +4631,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt5"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type5"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#India"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-windlass-xviii.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windlass Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-windlass-xviii.jpg</image>
+        <name>Windlass Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4645,8 +4645,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt6"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type6"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#United%20States%20of%20America"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/albion-tritona.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albion Tritonia Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/albion-tritona.jpg</image>
+        <name>Albion Tritonia Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4659,8 +4659,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt7"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type7"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#Italy"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-cs-italian.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian Long Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-cs-italian.jpg</image>
+        <name>Italian Long Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4673,8 +4673,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt8"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type8"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#France"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/koa-deepeeka-cluny.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cluny Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/koa-deepeeka-cluny.jpg</image>
+        <name>Cluny Sword</name>
     </owl:NamedIndividual>
     
 
@@ -4687,8 +4687,8 @@
         <composedOf rdf:resource="http://www.semanticweb.org/oakeshott#Hilt9"/>
         <hasType rdf:resource="http://www.semanticweb.org/oakeshott#Type9"/>
         <isFrom rdf:resource="http://www.semanticweb.org/oakeshott#Czech%20Republic"/>
-        <image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sword-buyers-guide.com/images/Type-XIIIfa.jpg</image>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabri Amorum Sword</name>
+        <image>https://www.sword-buyers-guide.com/images/Type-XIIIfa.jpg</image>
+        <name>Fabri Amorum Sword</name>
     </owl:NamedIndividual>
     
 

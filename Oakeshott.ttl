@@ -14,11 +14,11 @@
                                         <http://purl.org/dc/elements/1.1/creator> "Marco Galatola"@en ,
                                                                                   "Nazareno Maria Borello"@en ;
                                         <http://purl.org/dc/elements/1.1/date> "2020-02-11T09:00:00"^^xsd:dateTime ;
-                                        <http://purl.org/dc/elements/1.1/description> "An onthology for classifying european medieval double edged swords based on the Oakeshott typology(1960)"@en ;
-                                        <http://purl.org/dc/elements/1.1/title> "Oakeshott Typology Onthology"@en ;
-                                        oto:vann:preferredNamespacePrefix "oto"^^xsd:string ;
-                                        oto:vann:preferredNamespaceUri "http://www.semanticweb.org/oakeshott"^^xsd:string ;
-                                        rdfs:label "The Oakeshott Typology Onthology"@en .
+                                        <http://purl.org/dc/elements/1.1/description> "An ontology for classifying european medieval double edged swords based on the Oakeshott typology(1960)"@en ;
+                                        <http://purl.org/dc/elements/1.1/title> "Oakeshott Typology Ontology"@en ;
+                                        oto:vann:preferredNamespacePrefix "oto" ;
+                                        oto:vann:preferredNamespaceUri "http://www.semanticweb.org/oakeshott" ;
+                                        rdfs:label "The Oakeshott Typology Ontology"@en .
 
 #################################################################
 #    Annotation properties
@@ -3717,8 +3717,8 @@ oto:Sword1 rdf:type owl:NamedIndividual ,
                           oto:Hilt1 ;
            oto:hasType oto:Type1 ;
            oto:isFrom oto:Norway ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-ulbert.jpg"^^xsd:string ;
-           oto:name "Ulfberht Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-ulbert.jpg" ;
+           oto:name "Ulfberht Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword10
@@ -3728,8 +3728,8 @@ oto:Sword10 rdf:type owl:NamedIndividual ,
                            oto:Hilt10 ;
             oto:hasType oto:Type10 ;
             oto:isFrom oto:Italy ;
-            oto:image "https://www.sword-buyers-guide.com/images/koa-deltin-xix.jpg"^^xsd:string ;
-            oto:name "Del Tin Venetian Sword"^^xsd:string .
+            oto:image "https://www.sword-buyers-guide.com/images/koa-deltin-xix.jpg" ;
+            oto:name "Del Tin Venetian Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword2
@@ -3739,8 +3739,8 @@ oto:Sword2 rdf:type owl:NamedIndividual ,
                           oto:Hilt2 ;
            oto:hasType oto:Type2 ;
            oto:isFrom <http://www.semanticweb.org/oakeshott#People%27s%20Republic%20of%20China> ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-cas-xx.jpg"^^xsd:string ;
-           oto:name "Hanwei Mercenary Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-cas-xx.jpg" ;
+           oto:name "Hanwei Mercenary Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword3
@@ -3750,8 +3750,8 @@ oto:Sword3 rdf:type owl:NamedIndividual ,
                           oto:Hilt3 ;
            oto:hasType oto:Type3 ;
            oto:isFrom oto:Italy ;
-           oto:image "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1337.photobucket.com%2Falbums%2Fo673%2FAlaeSwords%2FAlaeSwords102%2Fcinquedea-short-sword-6.jpg&f=1&nofb=1"^^xsd:string ;
-           oto:name "Cinquedea Sword"^^xsd:string .
+           oto:image "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1337.photobucket.com%2Falbums%2Fo673%2FAlaeSwords%2FAlaeSwords102%2Fcinquedea-short-sword-6.jpg&f=1&nofb=1" ;
+           oto:name "Cinquedea Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword4
@@ -3761,8 +3761,8 @@ oto:Sword4 rdf:type owl:NamedIndividual ,
                           oto:Hilt4 ;
            oto:hasType oto:Type4 ;
            oto:isFrom <http://www.semanticweb.org/oakeshott#United%20States%20of%20America> ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-legacy-xva.jpg"^^xsd:string ;
-           oto:name "Black Prince Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-legacy-xva.jpg" ;
+           oto:name "Black Prince Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword5
@@ -3772,8 +3772,8 @@ oto:Sword5 rdf:type owl:NamedIndividual ,
                           oto:Hilt5 ;
            oto:hasType oto:Type5 ;
            oto:isFrom oto:India ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-windlass-xviii.jpg"^^xsd:string ;
-           oto:name "Windlass Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-windlass-xviii.jpg" ;
+           oto:name "Windlass Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword6
@@ -3783,8 +3783,8 @@ oto:Sword6 rdf:type owl:NamedIndividual ,
                           oto:Hilt6 ;
            oto:hasType oto:Type6 ;
            oto:isFrom <http://www.semanticweb.org/oakeshott#United%20States%20of%20America> ;
-           oto:image "https://www.sword-buyers-guide.com/images/albion-tritona.jpg"^^xsd:string ;
-           oto:name "Albion Tritonia Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/albion-tritona.jpg" ;
+           oto:name "Albion Tritonia Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword7
@@ -3794,8 +3794,8 @@ oto:Sword7 rdf:type owl:NamedIndividual ,
                           oto:Hilt7 ;
            oto:hasType oto:Type7 ;
            oto:isFrom oto:Italy ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-cs-italian.jpg"^^xsd:string ;
-           oto:name "Italian Long Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-cs-italian.jpg" ;
+           oto:name "Italian Long Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword8
@@ -3805,8 +3805,8 @@ oto:Sword8 rdf:type owl:NamedIndividual ,
                           oto:Hilt8 ;
            oto:hasType oto:Type8 ;
            oto:isFrom oto:France ;
-           oto:image "https://www.sword-buyers-guide.com/images/koa-deepeeka-cluny.jpg"^^xsd:string ;
-           oto:name "Cluny Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/koa-deepeeka-cluny.jpg" ;
+           oto:name "Cluny Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#Sword9
@@ -3816,8 +3816,8 @@ oto:Sword9 rdf:type owl:NamedIndividual ,
                           oto:Hilt9 ;
            oto:hasType oto:Type9 ;
            oto:isFrom <http://www.semanticweb.org/oakeshott#Czech%20Republic> ;
-           oto:image "https://www.sword-buyers-guide.com/images/Type-XIIIfa.jpg"^^xsd:string ;
-           oto:name "Fabri Amorum Sword"^^xsd:string .
+           oto:image "https://www.sword-buyers-guide.com/images/Type-XIIIfa.jpg" ;
+           oto:name "Fabri Amorum Sword" .
 
 
 ###  http://www.semanticweb.org/oakeshott#SwordTest

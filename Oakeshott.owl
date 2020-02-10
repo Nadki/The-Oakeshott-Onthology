@@ -30,11 +30,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="en">An onthology for classifying european medieval double edged swords based on the Oakeshott typology(1960)</Literal>
+        <Literal xml:lang="en">An ontology for classifying european medieval double edged swords based on the Oakeshott typology(1960)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal xml:lang="en">Oakeshott Typology Onthology</Literal>
+        <Literal xml:lang="en">Oakeshott Typology Ontology</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="#vann:preferredNamespacePrefix"/>
@@ -46,7 +46,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">The Oakeshott Typology Onthology</Literal>
+        <Literal xml:lang="en">The Oakeshott Typology Ontology</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Blade"/>
