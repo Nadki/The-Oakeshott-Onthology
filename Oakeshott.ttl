@@ -78,6 +78,17 @@ oto:composedOf rdf:type owl:ObjectProperty ;
                rdfs:label "composed of"@en .
 
 
+###  http://www.semanticweb.org/oakeshott#hasBladeFuller
+oto:hasBladeFuller rdf:type owl:ObjectProperty ;
+                   rdfs:domain oto:MedievalSword ;
+                   rdfs:range oto:Fuller ;
+                   owl:propertyChainAxiom ( oto:composedOf
+                                            oto:hasFuller
+                                          ) ;
+                   rdfs:comment "The relation between the sword and the fuller of its blade"@en ;
+                   rdfs:label "has blade fuller"@en .
+
+
 ###  http://www.semanticweb.org/oakeshott#hasBladeSection
 oto:hasBladeSection rdf:type owl:ObjectProperty ;
                     rdfs:domain oto:MedievalSword ;
@@ -3312,6 +3323,7 @@ oto:F rdf:type owl:NamedIndividual ,
 ###  http://www.semanticweb.org/oakeshott#France
 oto:France rdf:type owl:NamedIndividual ,
                     oto:Country ;
+           rdfs:comment "The country of France"@en ;
            rdfs:label "France"@en .
 
 
@@ -3580,12 +3592,14 @@ oto:I1 rdf:type owl:NamedIndividual ,
 ###  http://www.semanticweb.org/oakeshott#India
 oto:India rdf:type owl:NamedIndividual ,
                    oto:Country ;
+          rdfs:comment "The country of India"@en ;
           rdfs:label "India"@en .
 
 
 ###  http://www.semanticweb.org/oakeshott#Italy
 oto:Italy rdf:type owl:NamedIndividual ,
                    oto:Country ;
+          rdfs:comment "The country of Italy"@en ;
           rdfs:label "Italy"@en .
 
 
@@ -3657,6 +3671,7 @@ oto:None rdf:type owl:NamedIndividual ,
 ###  http://www.semanticweb.org/oakeshott#Norway
 oto:Norway rdf:type owl:NamedIndividual ,
                     oto:Country ;
+           rdfs:comment "The country of Norway"@en ;
            rdfs:label "Norway"@en .
 
 
@@ -3975,18 +3990,21 @@ oto:Z rdf:type owl:NamedIndividual ,
 ###  http://www.semanticweb.org/oakeshott#Czech%20Republic
 <http://www.semanticweb.org/oakeshott#Czech%20Republic> rdf:type owl:NamedIndividual ,
                                                                  oto:Country ;
+                                                        rdfs:comment "The country of Czech Republic"@en ;
                                                         rdfs:label "Czech Republic"@en .
 
 
 ###  http://www.semanticweb.org/oakeshott#People%27s%20Republic%20of%20China
 <http://www.semanticweb.org/oakeshott#People%27s%20Republic%20of%20China> rdf:type owl:NamedIndividual ,
                                                                                    oto:Country ;
+                                                                          rdfs:comment "The country of People's Republic of China"@en ;
                                                                           rdfs:label "People's Republic of China"@en .
 
 
 ###  http://www.semanticweb.org/oakeshott#United%20States%20of%20America
 <http://www.semanticweb.org/oakeshott#United%20States%20of%20America> rdf:type owl:NamedIndividual ,
                                                                                oto:Country ;
+                                                                      rdfs:comment "The country of United States of America"@en ;
                                                                       rdfs:label "United States of America"@en .
 
 

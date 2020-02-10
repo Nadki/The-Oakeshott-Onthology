@@ -121,6 +121,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/oakeshott#hasBladeFuller -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/oakeshott#hasBladeFuller">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/oakeshott#MedievalSword"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/oakeshott#Fuller"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/oakeshott#composedOf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/oakeshott#hasFuller"/>
+        </owl:propertyChainAxiom>
+        <rdfs:comment xml:lang="en">The relation between the sword and the fuller of its blade</rdfs:comment>
+        <rdfs:label xml:lang="en">has blade fuller</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/oakeshott#hasBladeSection -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/oakeshott#hasBladeSection">
@@ -4002,6 +4017,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#France">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of France</rdfs:comment>
         <rdfs:label xml:lang="en">France</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4369,6 +4385,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#India">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of India</rdfs:comment>
         <rdfs:label xml:lang="en">India</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4378,6 +4395,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#Italy">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of Italy</rdfs:comment>
         <rdfs:label xml:lang="en">Italy</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4479,6 +4497,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#Norway">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of Norway</rdfs:comment>
         <rdfs:label xml:lang="en">Norway</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4920,6 +4939,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#Czech%20Republic">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of Czech Republic</rdfs:comment>
         <rdfs:label xml:lang="en">Czech Republic</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4929,6 +4949,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#People%27s%20Republic%20of%20China">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of People&apos;s Republic of China</rdfs:comment>
         <rdfs:label xml:lang="en">People&apos;s Republic of China</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4938,6 +4959,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/oakeshott#United%20States%20of%20America">
         <rdf:type rdf:resource="http://www.semanticweb.org/oakeshott#Country"/>
+        <rdfs:comment xml:lang="en">The country of United States of America</rdfs:comment>
         <rdfs:label xml:lang="en">United States of America</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
