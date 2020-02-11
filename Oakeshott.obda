@@ -1,0 +1,16 @@
+[PrefixDeclaration]
+:		http://www.semanticweb.org/oakeshott#
+oto:		http://www.semanticweb.org/oakeshott#
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+obda:		https://w3id.org/obda/vocabulary#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+
+[MappingDeclaration] @collection [[
+mappingId	MAPID-dcf2afce88014f36bf995f91b9ec8a58
+target		:{country} a :Country ; rdfs:label {country} . :Hilt{id} a :Hilt ; :composedOf :{pommelType} , :Guard{guardType} ; :gripType {gripType} . :Blade{id} a :Blade ; :hasCrossSection :{crossSection} ; :hasFuller :{fuller} ; :length {bladeLength} . :Type{id} a :SwordType . :Sword{id} a :MedievalSword ; :composedOf :Hilt{id} , :Blade{id} ; :hasType :Type{id} ; :isFrom :{country} ; :name {name} ; :image {imageUrl} . 
+source		Select * From public."Sword"
+]]
+
